@@ -10,13 +10,13 @@ h1 {
   font-family: "Shadows Into Light";
 }
 h2{ 
-  font-size: 35px;
-  font-family: arial;
+  font-size: 26px;
+  font-family: "Shadows Into Light";
   }
 
 h4{ 
-  font-size: 40px;
-  font-family: arial;
+  font-size: 26px;
+  font-family: "Shadows Into Light";
 }
 
 /* Make the section headers (e.g. Summary, Experience) 26px font */
@@ -72,7 +72,6 @@ a:hover {
   margin: 20px auto;
   text-align: center;
 }
-
 
 
 
