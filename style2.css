@@ -1,6 +1,6 @@
 /* Turn the links red */
 a {
-  color: red;
+  color: blue;
 }
 
 /* Make the name 36px font and italicized */
@@ -8,6 +8,15 @@ h1 {
   font-size: 50px;
   font-style: italic;
   font-family: "Shadows Into Light";
+}
+h2{ 
+  font-size: 35px;
+  font-family: arial;
+  }
+
+h4{ 
+  font-size: 40px;
+  font-family: arial;
 }
 
 /* Make the section headers (e.g. Summary, Experience) 26px font */
@@ -22,9 +31,10 @@ h5 {
 }
 
 /* Put a border around the photo, set it to the right */
-img#walter {
-  border: 1px solid grey;
-  border-radius: 9999999px;
+img#loyalty {
+  border: 1px solid white;
+  height: 300px;
+  border-radius: 0px;
   box-shadow: 10px 10px 5px grey;
   float: right;
 }
@@ -32,7 +42,7 @@ img#walter {
 /* Set the font family for the whole document, and add a background image */
 body {
   font-family: 'Droid Sans', arial;
-  background-image: url(background.jpg);
+  background-image: url(loyalty-background.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -51,14 +61,14 @@ a:hover {
 /* Make the content of the page "sit on top of" the background */
 #wrapper {
   background-color: white;
-  width: 960px;
+  width: 1000px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 75px;
 }
 
 /* Make it so you can see the footer and center it */
 #footer {
-  color: white;
+  color: black;
   margin: 20px auto;
   text-align: center;
 }
