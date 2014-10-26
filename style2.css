@@ -42,7 +42,7 @@ img#loyalty {
 /* Set the font family for the whole document, and add a background image */
 body {
   font-family: 'Droid Sans', arial;
-  background-image: url(loyalty-background.jpg);
+  background-image: url(blue.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
